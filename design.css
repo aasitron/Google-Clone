@@ -1,0 +1,232 @@
+* {
+    font-family: 'Product Sans';
+    margin-top: 7px;
+    border: border-box;
+
+}
+
+/******* Top Panel *******/
+
+.blank-space {
+    /* border: 2px solid black; */
+    width: 80%;
+    /* visibility: hidden; */
+}
+
+.top-panel {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 0px;
+    /* border: 2px solid red; */
+}
+
+.user-dp {
+    background-image: url('../Project 2 Google/Images/user_dp.jpg');
+    background-size: cover;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-panel a {
+    margin-right: 20px;
+    opacity: 70%;
+}
+
+.top-panel i {
+    opacity: 70%;
+
+}
+
+.top-panel a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.top-panel i:hover {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-dp:hover {
+    cursor: pointer;
+}
+
+/******* Google Logo *******/
+
+.middle-panel {
+    height: 445px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.g-logo {
+    background-image: url('../Project 2 Google/Images/google_logo.png');
+    background-size: cover;
+    height: 92px;
+    width: 272px;
+    border-radius: 2px solid red;
+
+}
+
+/******* Search Box *******/
+
+.middle-panel2 {
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+    width: 560px;
+    height: 45px;
+    border-radius: 40px;
+    justify-content: space-evenly;
+    border: 2px solid rgb(238, 236, 236);
+    /* border: 2px solid red; */
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    padding-left: 25px;
+    padding-bottom: 7px;
+
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    color: #4285F4;
+}
+
+.middle-panel2:hover {
+    box-shadow: 1px 1px 5px #bdbdbd;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+/******* Google Search/I'm Feeling Lucky *******/
+
+.middle-panel3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    /* border: 2px solid red; */
+}
+
+.google-search {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    margin: 11px 8px;
+    /* border: 2px solid red; */
+    text-align: center;
+    border-radius: 4px;
+    border: #f8f9fa;
+}
+
+.google-search:hover {
+    border: 1.5px solid #cfcece;
+    cursor: pointer;
+}
+
+.gs-text {
+    opacity: 60%;
+}
+
+.feeling-lucky {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    margin: 11px 4px;
+    /* border: 2px solid red; */
+    text-align: center;
+    border-radius: 4px;
+    border: #f8f9fa;
+}
+
+.fl-text {
+    opacity: 60%;
+}
+
+.feeling-lucky:hover {
+    border: 1.5px solid #cfcece;
+    cursor: pointer;
+}
+
+/******* Google Offered In *******/
+
+.middle-panel4 {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-evenly;
+    width: 530px;
+}
+
+.lan {
+    color: #1a0dab;
+}
+
+.lan:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/******* Bottom Panel *******/
+
+.foot {
+    background-color: #f2f2f2;
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 0.9rem;
+}
+
+.india-space {
+    padding: 8px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.bottom-main {
+    display: flex;
+}
+
+.bottom-lines{
+    display: flex;
+    padding: 0px 30px;
+    width: 25%;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.bottom-lines-left {
+    display: flex;
+    position: fixed;
+    right: 0;
+    justify-content: space-evenly;
+    width: 18%;
+}
+
+.bottom-text {
+    opacity: 70%;
+}
+
+.bottom-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
